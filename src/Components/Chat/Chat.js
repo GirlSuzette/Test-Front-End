@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import avatar from '../../image/bender.png'
+import avatar from '../../assets/bender.png'
 
 export default class Chat extends Component {
 

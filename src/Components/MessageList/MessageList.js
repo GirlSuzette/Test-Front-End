@@ -17,8 +17,6 @@ export default class MessageList extends Component {
 
     }
 
-
-
     render() {
         return (
             <div className="chat__container" >
@@ -26,7 +24,7 @@ export default class MessageList extends Component {
                     return (
                         <section key={index}>
                             <article className='chat__msj'>
-                                <img src={`/image/${item.user.username.toLowerCase()}.png`} alt="Avatar" className="avatar" />
+                                <img src={`/assets/${item.user.username.toLowerCase()}.png`} alt="Avatar" className="avatar" />
                                 <strong className='chat__text101'>{item.user.name}</strong>
                                 <h6 className='chat__date'>5 Nov - 1:37 PM</h6>
                             </article>

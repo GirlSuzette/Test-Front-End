@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Rick from '../../image/pickle_rick.png'
+import Rick from '../../assets/pickle_rick.png'
 
 
 export default class ToolbarRoboto extends Component {

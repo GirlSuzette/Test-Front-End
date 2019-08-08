@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from '../../image/Rick-and-morty.png';
-import avatar from '../../image/bender.png';
-import Rick from '../../image/pickle_rick.png'
+import logo from '../../assets/Rick-and-morty.png';
+import avatar from '../../assets/bender.png';
+import Rick from '../../assets/pickle_rick.png'
 
 export default class Sidebar extends Component {
 

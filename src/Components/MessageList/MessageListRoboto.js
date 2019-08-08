@@ -12,7 +12,7 @@ export default class MessageListRoboto extends Component {
                     return (
                         <section key={index}>
                             <article className='chat__msj'>
-                                <img src={`/image/${item.user.image.toLowerCase()}.png`} alt="Avatar" className="avatar" />
+                                <img src={`/assets/${item.user.image.toLowerCase()}.png`} alt="Avatar" className="avatar" />
                                 <strong className='chat__text101'>{item.user.name}</strong>
                                 <h6 className='chat__date'>{item.user.username}</h6>
                             </article>
@@ -26,7 +26,7 @@ export default class MessageListRoboto extends Component {
                     return (
                         <section key={index}>
                             <article className='chat__msj'>
-                                <img src={`/image/${item.user.image.toLowerCase()}.png`} alt="Avatar" className="avatar" />
+                                <img src={`/assets/${item.user.image.toLowerCase()}.png`} alt="Avatar" className="avatar" />
                                 <strong className='chat__text101'>{item.user.name}</strong>
                                 <h6 className='chat__date'>{item.user.username}</h6>
                             </article>
@@ -35,7 +35,6 @@ export default class MessageListRoboto extends Component {
                     )
                 })
                 }
-
             </div >
         );
     }

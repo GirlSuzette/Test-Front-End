@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./App.css"
 import MessageList from './Components/MessageList/MessageList';
 import { Switch, Route, Link } from 'react-router-dom';
-import avatar from './image/bender.png';
+import avatar from './assets/bender.png';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Chat from './Components/Chat/Chat';
 import Toolbar from './Components/Toolbar/Toolbar';
