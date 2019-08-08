@@ -12,7 +12,7 @@
 }
 
 .app__header > div a {
-  margin-right: 5px;
+  margin-right: -2px;
 }
 
 .app__add {
@@ -102,7 +102,7 @@
 }
 
 a {
-  margin-left: 5px;
+  margin-left: 0px;
   text-decoration: none;
   color: black;
 }
@@ -282,6 +282,13 @@ a {
 
 }
 
+.left-itemDown102 {
+  position: relative;
+  top: 11px;
+  left: 37px;
+  padding-right: 280px;
+}
+
 .left-itemText{
   padding-left: 8px;
   padding-right: 8px; 
@@ -312,6 +319,50 @@ a {
   flex: 1 1;
   padding: 10px;
   display: flex;
+}
+
+.toolbar101{
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  border-bottom: 1px solid #eeeef1;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 1000px;
+  top: 0;
+  font-size: 8px;
+}
+
+.toolbar102 {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 12px;
+  border-bottom: 1px solid #eeeef1;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 836px;
+  top: 0;
+  font-size: 8px;
+}
+
+.left-itemDown101 {
+  position: relative;
+  top: 32px;
+  right: 126px;
+}
+
+.hrStyle{
+  border: .3px solid darkgray;
+  position: relative;
+  top: 200px;
+}
+
+.spaceMenu{
+  padding: 4px
 }
 
 @media screen and (min-width: 768px){ 
@@ -356,6 +407,11 @@ a {
     width: 87%;
     font-size: 14px;
   }
+  .toolbar101{
+    width: 87%;
+    font-size: 10px;
+  }
+  
 }
 
 
@@ -376,4 +432,12 @@ a {
     font-size: 18px;
     width: 100%;
   }
+  .toolbar101{
+    font-size: 12px;
+    width: 100%;
+  }
+  .toolbar102 {
+    font-size: 12px;
+    width: 1076px;
+}
 }
