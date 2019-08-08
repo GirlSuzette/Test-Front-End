@@ -1,5 +1,44 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+├── package.json
+├── public
+├── README.md
+├── node_modules
+├── src
+│ ├── App.js
+│ ├── App.css
+│ ├── assets
+│ ├── components
+│ ├── index.js
+│ ├── index.css
+│ ├── Redux
+│ └── util
+└── package-lock.json
+
+***Client Routes (Front End)***
+    /
+    /rick
+    /rich
+
+***Technologies***
+
+HTML
+CSS
+Javascript in General
+1. React
+2. Node
+Front End Libraries (dependencies)
+1. Redux
+2. React
+3. React-dom
+4. React-router-dom
+5. Axios
+
+***Deploy Microservices***
+Front End:
+- https://www.000webhost.com/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
