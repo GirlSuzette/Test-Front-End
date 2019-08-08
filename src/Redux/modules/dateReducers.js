@@ -2,19 +2,20 @@ import { ADD_MENSSAGE } from '../Actions/actionConstants';
 
 
 const INITIAL_STATE = {
-    indicador: [],
+    data: [],
     loading: true,
     error: null,
 }
 
+/* Reducer */
 
 export default (state = INITIAL_STATE, action) => {
-    // console.log(action.data)
+    console.log(action.payload)
     switch (action.type) {
         case ADD_MENSSAGE:
             return {
                 ...state,
-                indicador: action.payload,
+                data: action.payload,
                 loading: false,
                 error: null,
             };
@@ -24,3 +25,8 @@ export default (state = INITIAL_STATE, action) => {
     }
 
 }
+
+
+
+
+
